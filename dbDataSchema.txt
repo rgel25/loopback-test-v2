@@ -1,0 +1,29 @@
+{
+    account
+    account_id: Number,
+    limit: Number,
+    products: Array(String)
+}
+
+{
+  customer
+  username: String,
+  name: String,
+  address: String,
+  birthdate: Date,
+  email: String,
+  active: Boolean,
+  accounts: Array(Number),
+  tier_and_details: Object
+}
+
+{
+
+  account_id: Number,
+  transaction_count: Number,
+  bucket_start_date: Date,
+  bucket_end_date: Date,
+  transactions: Array(Object)
+}
+
+
